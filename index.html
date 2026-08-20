@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ushijima — Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header" id="header">
+      <div class="container header__inner">
+        <a href="#" class="logo">Katsuharu U<span class="logo__dot">.</span></a>
+        <nav class="nav" aria-label="メインナビゲーション">
+          <a href="#service" class="nav__link">Service</a>
+          <a href="#works" class="nav__link">Works</a>
+          <a href="#about" class="nav__link">About</a>
+          <a href="#contact" class="nav__link">Contact</a>
+          <a href="#contact" class="btn btn--primary btn--sm">お問い合わせ</a>
+        </nav>
+        <button class="nav-toggle" id="nav-toggle" type="button" aria-label="メニューを開く" aria-expanded="false">
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero container" id="hero">
+        <p class="eyebrow">Web Design &amp; Coding  </p>
+        <h1 class="hero__title">想いをカタチに、<br />丁寧につくる。</h1>
+        <p class="hero__lead"> 
+            Webデザイン・コーディングを通じて、想いをカタチにします。<br>
+            一つひとつ丁寧に向き合い、伝わるWebサイト制作を心がけています。</p>
+        <div class="hero__actions">
+
+          <a href="#works" class="btn btn--primary">実績を見る</a>
+          <a href="#contact" class="btn btn--outline">相談する</a>
+        </div>
+      </section>
+
+      <div class="container"><hr class="divider" /></div>
+
+      <section class="section container" id="service">
+        <p class="label">Service</p>
+        <h2 class="section__title">できるカタチ</h2>
+        <div class="service-grid">
+          <article class="service-item">
+            <div class="service-item__no">01</div>
+            <h3 class="service-item__title">Webデザイン</h3>
+            <p class="service-item__desc">
+              Figmaを使ったUI設計や、ワイヤーフレームの作成、レイアウト・配色を行っています。
+            </p>
+          </article>
+          <article class="service-item">
+            <div class="service-item__no">02</div>
+            <h3 class="service-item__title">HTML / CSS コーディング</h3>
+            <p class="service-item__desc">
+              HTML・CSSを使ったコーディングや、スマートフォンにも対応したレスポンシブデザインを行います。
+            </p>
+          </article>
+          <article class="service-item">
+            <div class="service-item__no">03</div>
+            <h3 class="service-item__title">JavaScript / React</h3>
+            <p class="service-item__desc">
+              JavaScriptを使った基本的な動きの実装や、Webサイトに必要な機能の実装を行います。
+            </p>
+          </article>
+          <article class="service-item">
+            <div class="service-item__no">04</div>
+            <h3 class="service-item__title">UI / UX デザイン</h3>
+            <p class="service-item__desc">
+              ユーザビリティやアクセシビリティを意識し、「使いやすく、伝わるデザイン」を心がけて制作します。
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <div class="container"><hr class="divider" /></div>
+
+      <section class="section container" id="works">
+        <p class="label">Works</p>
+        <h2 class="section__title">制作作品</h2>
+        <div class="works-grid">
+          <article class="work-card">
+            <div class="work-card__media">
+              <img
+                src="image/work-cocoro-new.png"
+                alt="Luminary Beauty"
+                width="720"
+                height="480"
+              />
+            </div>
+            <div class="work-card__body">
+              <div class="work-card__category">Webサイト</div>
+              <div class="work-card__title">cocoro雑貨店</div>
+            </div>
+          </article>
+          <article class="work-card">
+            <div class="work-card__media">
+              <img
+                src="image/work-flowerroom.png"
+                alt="Flower Room"
+                width="720"
+                height="480"
+              />
+            </div>
+            <div class="work-card__body">
+              <div class="work-card__category">Webサイト</div>
+              <div class="work-card__title">Flower Room</div>
+            </div>
+          </article>
+          <article class="work-card">
+            <div class="work-card__media">
+              <img
+                src="image/work-smilecooking.png"
+                alt="Smile Cooking"
+                width="720"
+                height="480"
+              />
+            </div>
+            <div class="work-card__body">
+              <div class="work-card__category">Webサイト</div>
+              <div class="work-card__title">Smile Cooking</div>
+            </div>
+          </article>
+          <article class="work-card">
+            <div class="work-card__media">
+              <img
+                src="image/work-gnamgnam.png"
+                alt="Gnam gnam"
+                width="720"
+                height="480"
+              />
+            </div>
+            <div class="work-card__body">
+              <div class="work-card__category">Webサイト</div>
+              <div class="work-card__title">Gnam gnam</div>
+            </div>
+          </article>
+          
+          
+        </div>
+      </section>
+
+      <div class="container"><hr class="divider" /></div>
+
+      <section class="section container" id="about">
+        <p class="label">About</p>
+        <div class="about">
+          <div class="about__media">
+            <img
+              src="image/男性画像PC1.png"
+              alt="牛島 克治"
+              width="480"
+              height="560"
+            />
+          </div>
+          <div class="about__content">
+            <h2 class="about__name">牛島 克治</h2>
+            <p class="about__role">Webデザイン・コーディング </p>
+            <p class="about__text">
+               Webデザインからコーディングまで、Webサイト制作に対応しています。
+               見やすさ・使いやすさを意識し、目的や想いが伝わるWebサイトを丁寧に制作します。
+            </p>
+            <p class="about__text about__text--last">
+              「シンプルで伝わるデザイン」を大切にし、一つひとつのご要望に丁寧に向き合います。
+               デザインとコーディングの両面から、目的に合ったWebサイト制作を心がけています。
+          
+            </p>
+            <div class="skills">
+              <div class="skills__label">Skills</div>
+              <ul class="skills__list">
+                <li>Figma</li>
+                <li>HTML / CSS</li>
+                <li>JavaScript</li>
+                <li>Sass</li>
+                <li>WordPress</li>
+                
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="container"><hr class="divider" /></div>
+
+      <section class="section contact" id="contact">
+        <p class="label">Contact</p>
+        <h2 class="section__title">お気軽にご連絡ください</h2>
+        <p class="contact__lead">
+          作品に関するご感想・フィードバックなど、どんなことでもお気軽にどうぞ。
+        </p>
+
+        <div class="contact__success" id="contact-success" hidden>
+          <div class="contact__success-icon" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 22 22" fill="none">
+              <path
+                d="M4 11l5 5L18 6"
+                stroke="#2563EB"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <p class="contact__success-title">送信しました</p>
+          <p class="contact__success-text">3営業日以内にご連絡いたします。</p>
+        </div>
+
+        <form class="contact-form" id="contact-form" novalidate>
+          <div class="contact-form__row">
+            <div class="field">
+              <label for="name">お名前</label>
+              <input type="text" id="name" name="name" placeholder="田中 太郎" required />
+            </div>
+            <div class="field">
+              <label for="email">メールアドレス</label>
+              <input type="email" id="email" name="email" placeholder="taro@example.com" required />
+            </div>
+          </div>
+          <div class="field">
+            <label for="message">ご相談内容</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              placeholder="プロジェクトの概要、ご予算、スケジュールなどをお聞かせください。"
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary">送信する</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <span class="logo logo--sm">Katsuharu U<span class="logo__dot">.</span></span>
+        <span class="footer__copy">© 2026 Katsuharu Ushijima</span>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
